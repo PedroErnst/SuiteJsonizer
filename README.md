@@ -37,3 +37,7 @@ Running this command will simply create a human readable dump of all the data.
 
 Edit `/src/Command/BulkJsonCommand.php` to run this command and execute the code on all json record.  
 Tip: Make sure all your data is backed up before running this command!
+
+##### `php jsonizer build` (WIP)
+
+Builds the modules and relationships in the SuiteCRM instance
