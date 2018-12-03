@@ -1,7 +1,7 @@
 
 A tool for building json specifications for SuiteCRM.
 
-- Use the command line to quickly whip up json specifications for modules, fields and relationships, taking advantage of autocomplete field cloning.
+- Use the command line to quickly whip up json specifications for modules, fields and relationships, taking advantage of autocomplete and field cloning.
 - Run bulk actions on all json files to quickly apply changes to all of them.
 - Build the json specifications into SuiteCRM modules, relationships and field definitions straight into your instance.
 
