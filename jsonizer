@@ -1,0 +1,9 @@
+<?php
+
+use Jsonizer\Jsonizer;
+
+require __DIR__ . '/vendor/autoload.php';
+
+$app = new Jsonizer();
+
+$app->run();
