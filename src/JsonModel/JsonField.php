@@ -45,7 +45,7 @@ class JsonField extends JsonModel
             'module' => $this->getAvailableModules(),
             'required' => ['true', 'false'],
             'type' => ['varchar', 'int', 'link', 'text', 'bool', 'datetime', 'date', 'relate', 'id'
-                , 'enum', 'dynamicenum', 'multienum', 'datetimecombo', 'float', 'currency'],
+                , 'enum', 'dynamicenum', 'multienum', 'datetimecombo', 'float', 'currency', 'address'],
         ];
 
         $this->path = __DIR__ . '/../../raw/fields/';
