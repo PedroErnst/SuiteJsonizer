@@ -86,11 +86,12 @@ class FieldOrder
      */
     public static function outputUnordered()
     {
-        $count = count(static::$unordered);
+        $unique = array_unique(static::$unordered);
+        $count = count($unique);
         if (!$count) {
             return;
         }
-        foreach (array_unique(static::$unordered) as $fieldName) {
+        foreach ($unique as $fieldName) {
             echo "'$fieldName'," . PHP_EOL;
         }
         echo "Total: $count fields unordered," . PHP_EOL;
