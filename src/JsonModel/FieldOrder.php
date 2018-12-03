@@ -42,6 +42,8 @@ namespace Jsonizer\JsonModel;
 class FieldOrder
 {
     /**
+     * Edit this array to define an order for fields in which they should appear in views
+     *
      * @var array
      */
     static $order = [
@@ -94,6 +96,7 @@ class FieldOrder
         foreach ($unique as $fieldName) {
             echo "'$fieldName'," . PHP_EOL;
         }
-        echo "Total: $count fields unordered," . PHP_EOL;
+        $fileName = __FILE__;
+        echo "Total: $count fields unordered (Edit $fileName to order these fields)" . PHP_EOL;
     }
 }
